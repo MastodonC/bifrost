@@ -27,7 +27,7 @@
                  [org.slf4j/jcl-over-slf4j                      "1.7.7"]
                  [org.slf4j/log4j-over-slf4j                    "1.7.7"]
 
-                 [net.logstash.logback/logstash-logback-encoder "3.4"]]
+                 [net.logstash.logback/logstash-logback-encoder "4.6"]]
 
   :main uswitch.bifrost.main
   :uberimage {:base-image "mastodonc/basejava"
