@@ -35,7 +35,8 @@
               :files {"start-bifrost" "docker/start-bifrost.sh"}
               :tag "mastodonc/kixi.bifrost"}
   :profiles {:uberjar {:dependencies [[ch.qos.logback/logback-classic "1.1.2"]]
-                       :aot          [uswitch.bifrost.main]}
+                       :aot          [uswitch.bifrost.main]
+                       :uberjar-name "uberjar.jar"}
 
              :dev {:source-paths ["dev"]
                    :dependencies [[org.clojure/tools.namespace "0.2.3"]
